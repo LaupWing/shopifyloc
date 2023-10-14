@@ -1,7 +1,7 @@
 <?php 
    get_header()
 ?>
-<div class="h-[80vh] flex border-b border-black">
+<div class="h-screen-minus-nav flex border-b border-black">
    <div class="flex flex-1">
       <img 
          class="object-cover" 

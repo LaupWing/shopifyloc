@@ -5,7 +5,11 @@ module.exports = {
       "./src/**/*.jsx"
    ],
    theme: {
-      extend: {},
+      extend: {
+         height: {
+            "screen-minus-nav": "calc(100vh-3.5rem)"
+         }
+      },
    },
    plugins: [
       require("@tailwindcss/forms")
