@@ -15,6 +15,11 @@
          <div class="h-0.5 w-1/2 my-1 bg-emerald-500">
          </div>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id in cupiditate porro velit ullam nisi ipsum aliquid autem omnis officiis ipsa ducimus odit numquam accusamus corporis, veniam sed magni. Explicabo.</p>
+         <div class="flex mt-4">
+            <button class="px-4 py-1.5 shadow bg-emerald-600 rounded mr-auto uppercase text-slate-50 text-sm font-bold">
+               Contact
+            </button>
+         </div>
       </div>
    </div>
 </div>
