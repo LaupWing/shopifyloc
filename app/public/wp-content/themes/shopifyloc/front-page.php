@@ -73,6 +73,9 @@
          }
       ?>
    </ul>
+   <button class="px-4 py-1.5 mt-6 mr-auto shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold">
+      See more posts
+   </button>
 </div>
 
 <div class="mt-16 mx-auto flex flex-col w-full max-w-5xl">
@@ -121,6 +124,9 @@
          }
       ?>
    </ul>
+   <button class="px-4 py-1.5 mt-6 mr-auto shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold">
+      See more projects
+   </button>
 </div>
 
 <?php 
