@@ -26,4 +26,12 @@
             <li class="font-semibold tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center">Contact</li>
          </ul>
       </nav>
+      <div class="ml-auto flex items-center border-l border-black px-6">
+         <?php 
+            $custom_class = "w-5 h-5 text-slate-800";
+            get_template_part("templates/icons/search" , null, array(
+               "custom_class" => $custom_class
+            ))
+         ?>
+      </div>
    </header>
