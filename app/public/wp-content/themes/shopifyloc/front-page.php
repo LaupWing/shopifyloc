@@ -29,6 +29,7 @@
 
 <div class="mt-16 mx-auto flex flex-col w-full max-w-5xl">
    <h2 class="text-3xl">Recent Blogs</h2>
+   <div class="h-0.5 w-24 mt-2 bg-emerald-500"></div>
    <ul class="mt-6 grid grid-cols-3 gap-2">
       <?php 
          $homepagePosts = new WP_Query(array(
@@ -76,10 +77,11 @@
 
 <div class="mt-16 mx-auto flex flex-col w-full max-w-5xl">
    <h2 class="text-3xl">Recent Projects</h2>
-   <ul class="mt-6 grid grid-cols-3 gap-2">
+   <div class="h-0.5 w-24 mt-2 bg-emerald-500"></div>
+   <ul class="mt-6 grid grid-cols-2 gap-2">
       <?php 
          $homepagePosts = new WP_Query(array(
-            "posts_per_page" => 5
+            "posts_per_page" => 2
          ));
          if(have_posts()){
             while($homepagePosts->have_posts()){
