@@ -40,7 +40,7 @@
                   alt="Post"
                >
                <h2 class="font-bold text-emerald-500 my-2"><?php the_title() ?></h2>
-               <p><?php echo get_the_excerpt() ?></p>
+               <p class="text-sm"><?php echo get_the_excerpt() ?></p>
             </li>
       <?php 
             }
