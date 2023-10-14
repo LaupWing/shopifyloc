@@ -33,14 +33,15 @@
                $index = $homepagePosts->current_post;
          
       ?>
-            <li class="border-black border flex flex-col p-2">
+            <li class="flex flex-col p-2 hover:border-black border border-transparent">
                <img 
                   class="aspect-video object-cover" 
                   src="<?php echo get_the_post_thumbnail_url() ?>" 
                   alt="Post"
                >
                <h2 class="font-bold text-emerald-500 my-2"><?php the_title() ?></h2>
-               <p class="text-sm"><?php echo get_the_excerpt() ?></p>
+               <p class="text-sm mb-2"><?php echo get_the_excerpt() ?></p>
+               <p class="mt-auto font-bold text-slate-400 text-xs uppercase"><?php echo get_the_date() ?></p>
             </li>
       <?php 
             }
