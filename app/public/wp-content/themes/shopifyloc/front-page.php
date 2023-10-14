@@ -21,10 +21,30 @@
 
 <div class="mt-16 mx-auto flex flex-col w-full max-w-4xl">
    <h2 class="text-3xl">Recent Blogs</h2>
-   <ul class="mt-6 grid grid-cols-3 gap-4">
-      <li class="p-2 bg-red-100"></li>
-      <li class="p-2 bg-red-100"></li>
-      <li class="p-2 bg-red-100"></li>
+   <ul class="mt-6 grid grid-cols-3 gap-2">
+      <?php 
+         $homepagePosts = new WP_Query(array(
+            "posts_per_page" => 5
+         ));
+         if(have_posts()){
+            while($homepagePosts->have_posts()){
+               $homepagePosts->the_post();
+               
+               $index = $homepagePosts->current_post;
+         
+      ?>
+            <li class="border-black border-1 flex flex-col">
+               <img 
+                  class="aspect-video object-cover" 
+                  src="<?php echo get_the_post_thumbnail_url() ?>" 
+                  alt="Post"
+               >
+               <h2><?php the_title() ?></h2>
+            </li>
+      <?php 
+            }
+         }
+      ?>
    </ul>
 </div>
 
