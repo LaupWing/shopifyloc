@@ -6,6 +6,6 @@
    <?php wp_head() ?>
 </head>
 <body <?php body_class() ?>>
-   <header>
+   <header class="w-full p-2 bg-red-200">
 
    </header>
