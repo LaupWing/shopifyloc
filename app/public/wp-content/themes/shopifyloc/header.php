@@ -22,6 +22,7 @@
          <ul class="flex">
             <li class="font-semibold bg-slate-900 text-slate-50 tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center border-black border-r">Home</li>
             <li class="font-semibold tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center border-black border-r">Blog</li>
+            <li class="font-semibold tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center border-black border-r">Projects</li>
             <li class="font-semibold tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center border-black border-r">About</li>
             <li class="font-semibold tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center">Contact</li>
          </ul>
