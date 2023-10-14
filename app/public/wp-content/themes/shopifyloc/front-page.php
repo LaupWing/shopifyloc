@@ -28,8 +28,8 @@
 </div>
 
 <div class="mt-16 mx-auto flex flex-col w-full max-w-5xl">
-   <h2 class="text-3xl">Recent Blogs</h2>
-   <div class="h-0.5 w-24 mt-2 bg-emerald-500"></div>
+   <h2 class="text-3xl ml-2">Recent Blogs</h2>
+   <div class="h-0.5 w-24 mt-2 bg-emerald-500 ml-2"></div>
    <ul class="mt-6 grid grid-cols-3 gap-2">
       <?php 
          $homepagePosts = new WP_Query(array(
@@ -73,14 +73,14 @@
          }
       ?>
    </ul>
-   <button class="px-4 py-1.5 mt-6 mr-auto shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold">
+   <button class="px-4 py-1.5 mt-6 mr-auto shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold ml-2">
       See more posts
    </button>
 </div>
 
 <div class="mt-16 mx-auto flex flex-col w-full max-w-5xl">
-   <h2 class="text-3xl">Recent Projects</h2>
-   <div class="h-0.5 w-24 mt-2 bg-emerald-500"></div>
+   <h2 class="text-3xl ml-2">Recent Projects</h2>
+   <div class="h-0.5 w-24 mt-2 bg-emerald-500 ml-2"></div>
    <ul class="mt-6 grid grid-cols-2 gap-2">
       <?php 
          $homepagePosts = new WP_Query(array(
@@ -124,7 +124,7 @@
          }
       ?>
    </ul>
-   <button class="px-4 py-1.5 mt-6 mr-auto shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold">
+   <button class="px-4 py-1.5 mt-6 mr-auto shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold ml-2">
       See more projects
    </button>
 </div>
