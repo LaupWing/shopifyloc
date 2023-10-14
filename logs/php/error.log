@@ -1,0 +1,35 @@
+[14-Oct-2023 17:30:36 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php:45
+Stack trace:
+#0 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pin-d\\...')
+#2 C:\Users\pin-d\Local Sites\shopifyloc\app\public\index.php(17): require('C:\\Users\\pin-d\\...')
+#3 {main}
+  thrown in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php on line 45
+[14-Oct-2023 17:30:46 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php:45
+Stack trace:
+#0 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pin-d\\...')
+#2 C:\Users\pin-d\Local Sites\shopifyloc\app\public\index.php(17): require('C:\\Users\\pin-d\\...')
+#3 {main}
+  thrown in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php on line 45
+[14-Oct-2023 17:31:18 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php:45
+Stack trace:
+#0 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pin-d\\...')
+#2 C:\Users\pin-d\Local Sites\shopifyloc\app\public\index.php(17): require('C:\\Users\\pin-d\\...')
+#3 {main}
+  thrown in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php on line 45
+[14-Oct-2023 17:31:21 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php:45
+Stack trace:
+#0 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pin-d\\...')
+#2 C:\Users\pin-d\Local Sites\shopifyloc\app\public\index.php(17): require('C:\\Users\\pin-d\\...')
+#3 {main}
+  thrown in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php on line 45
+[14-Oct-2023 17:31:34 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php:45
+Stack trace:
+#0 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pin-d\\...')
+#2 C:\Users\pin-d\Local Sites\shopifyloc\app\public\index.php(17): require('C:\\Users\\pin-d\\...')
+#3 {main}
+  thrown in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php on line 45
