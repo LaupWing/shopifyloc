@@ -10,8 +10,10 @@
       >
    </div>
    <div class="flex-1 flex-shrink-0 border-l border-black flex items-center justify-center">
-      <div class="max-w-sm w-full">
+      <div class="max-w-sm w-full flex flex-col">
          <h2 class="italic text-3xl font-semibold text-slate-900">Lorem ipsum dolor</h2>
+         <div class="h-0.5 w-1/2 my-1 bg-emerald-500">
+         </div>
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id in cupiditate porro velit ullam nisi ipsum aliquid autem omnis officiis ipsa ducimus odit numquam accusamus corporis, veniam sed magni. Explicabo.</p>
       </div>
    </div>
