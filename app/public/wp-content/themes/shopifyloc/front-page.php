@@ -19,7 +19,7 @@
    </div>
 </div>
 
-<div class="mt-16 mx-auto flex flex-col w-full max-w-4xl">
+<div class="mt-16 mx-auto flex flex-col w-full max-w-5xl">
    <h2 class="text-3xl">Recent Blogs</h2>
    <ul class="mt-6 grid grid-cols-3 gap-2">
       <?php 
@@ -33,13 +33,14 @@
                $index = $homepagePosts->current_post;
          
       ?>
-            <li class="border-black border-1 flex flex-col">
+            <li class="border-black border flex flex-col p-2">
                <img 
                   class="aspect-video object-cover" 
                   src="<?php echo get_the_post_thumbnail_url() ?>" 
                   alt="Post"
                >
-               <h2><?php the_title() ?></h2>
+               <h2 class="font-bold text-emerald-500 my-2"><?php the_title() ?></h2>
+               <p><?php echo get_the_excerpt() ?></p>
             </li>
       <?php 
             }
