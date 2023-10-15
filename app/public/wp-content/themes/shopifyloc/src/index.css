@@ -16,9 +16,15 @@
 }
 
 .menu li.menu-item a{
-   @apply flex-1 flex items-center justify-center;
+   @apply flex-1 flex items-center justify-center hover:bg-slate-200;
 }
 
-.menu li.menu-item.current-menu-item, .menu li.menu-item.current_page_parent {
+.menu li.menu-item.current-menu-item, 
+.menu li.menu-item.current_page_parent {
    @apply font-semibold bg-slate-900 text-slate-50 tracking-wider w-24 text-xs uppercase text-center flex border-black border-r;
+}
+
+.menu li.menu-item.current-menu-item a, 
+.menu li.menu-item.current_page_parent a{
+   @apply hover:bg-slate-900;
 }
