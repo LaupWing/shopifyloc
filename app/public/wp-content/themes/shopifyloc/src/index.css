@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 
-.menu ul {
+.menu-main-header-menu-container {
    @apply flex;
+}
+
+.menu {
+   @apply flex;
+}
+
+.menu li.menu-item {
+   @apply font-semibold tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center border-black border-r;
 }
