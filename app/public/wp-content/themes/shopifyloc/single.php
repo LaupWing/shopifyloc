@@ -1,12 +1,14 @@
 <?php 
    get_header()
 ?>
-<div class="mt-10 mx-auto flex flex-col w-full max-w-5xl">
-   <div class="mx-auto text-center max-w-3xl flex flex-col">
-      <span class="mb-2 font-semibold text-slate-400"><?php echo get_the_date() ?></span>
-      <h2 class="font-bold text-3xl"><?php the_title() ?></h2>
-      <p class="my-6"><?php echo get_the_excerpt() ?></p>
-      <div class="relative flex">
+<div class="mt-10 mx-auto flex flex-col w-full">
+   <div class="mx-auto text-center flex flex-col items-center">
+      <div class="flex flex-col max-w-3xl">
+         <span class="mb-2 font-semibold text-slate-400"><?php echo get_the_date() ?></span>
+         <h2 class="font-bold text-3xl"><?php the_title() ?></h2>
+         <p class="my-6"><?php echo get_the_excerpt() ?></p>
+      </div>
+      <div class="relative flex max-w-4xl">
          <div class="flex w-full mx-auto absolute gap-4 top-0 p-4 flex-1 justify-center items-center">
             <?php
                $posttags = get_the_tags();
@@ -28,6 +30,9 @@
          >
       </div>
    </div>
+   <main>
+      <?php the_content() ?>
+   </main>
 </div>
 
 <?php 
