@@ -33,3 +33,11 @@ Stack trace:
 #2 C:\Users\pin-d\Local Sites\shopifyloc\app\public\index.php(17): require('C:\\Users\\pin-d\\...')
 #3 {main}
   thrown in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\front-page.php on line 45
+[15-Oct-2023 16:51:19 UTC] PHP Warning:  Undefined variable $homepagePosts in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\index.php on line 12
+[15-Oct-2023 16:51:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\index.php:12
+Stack trace:
+#0 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-blog-header.php(19): require_once('C:\\Users\\pin-d\\...')
+#2 C:\Users\pin-d\Local Sites\shopifyloc\app\public\index.php(17): require('C:\\Users\\pin-d\\...')
+#3 {main}
+  thrown in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\index.php on line 12
