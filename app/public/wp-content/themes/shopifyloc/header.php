@@ -19,6 +19,11 @@
          </i>
       </h1>
       <nav class="border-x border-black flex">
+         <?php
+            wp_nav_menu([
+               "theme_location" => "headerMenuLocation"
+            ]);
+         ?>
          <ul class="flex">
             <li class="font-semibold bg-slate-900 text-slate-50 tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center border-black border-r">Home</li>
             <li class="font-semibold tracking-wider w-24 text-xs uppercase text-center flex items-center justify-center border-black border-r">Blog</li>
