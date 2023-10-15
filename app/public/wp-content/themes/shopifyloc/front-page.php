@@ -38,14 +38,9 @@
          if(have_posts()){
             while($homepagePosts->have_posts()){
                $homepagePosts->the_post();
-               
-               $index = $homepagePosts->current_post;
-         
-      ?>
-            <?php 
-               get_template_part("templates/cards/blog-card")
-            ?>
-      <?php 
+               $index = $homepagePosts->current_post; 
+               get_template_part("templates/cards/blog-card");
+        
             }
          }
       ?>
