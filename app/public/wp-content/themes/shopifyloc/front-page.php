@@ -43,7 +43,7 @@
          
       ?>
             <li class="flex flex-col p-2 hover:border-black border border-transparent">
-               <a href="<?php get_the_permalink() ?>" class="flex">
+               <a href="<?php the_permalink() ?>" class="flex flex-col">
                   <div class="relative">
                      <div class="p-2 flex gap-2 absolute top-0 left-0">
                         <?php
