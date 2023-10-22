@@ -1,4 +1,4 @@
-   <footer class="py-16 mt-10 bg-emerald-800">
+   <footer class="py-16 bg-emerald-800 mt-auto">
       <div class="mx-auto flex flex-col w-full max-w-5xl px-2">
          <div class="flex gap-4">
             <button class="text-emerald-50 hover:scale-110 duration-200">
