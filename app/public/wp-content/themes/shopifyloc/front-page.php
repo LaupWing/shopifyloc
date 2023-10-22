@@ -32,16 +32,19 @@
    <div class="h-0.5 w-24 mt-2 bg-emerald-500 ml-2"></div>
    <ul class="mt-6 grid grid-cols-3 gap-2">
       <?php 
-         $homepagePosts = new WP_Query(array(
-            "posts_per_page" => 5
-         ));
-         if(have_posts()){
-            while($homepagePosts->have_posts()){
-               $homepagePosts->the_post();
-               $index = $homepagePosts->current_post; 
-               get_template_part("templates/cards/blog-card");
-        
+         $args = array(
+            "category__not_in" => array( get_cat_ID("projects")),
+            "posts_per_page" => 6
+         );
+         
+         $custom_query = new WP_Query($args);
+         
+         if ( $custom_query->have_posts() ) {
+            while ( $custom_query->have_posts() ) {
+               $custom_query->the_post();
+               get_template_part( "templates/cards/blog-card" );
             }
+            wp_reset_postdata();
          }
       ?>
    </ul>
