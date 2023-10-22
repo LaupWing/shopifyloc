@@ -8,12 +8,19 @@
    </div>
 </div>
 <div class="mx-auto mt-10 flex flex-col w-full max-w-5xl">
-   <ul class="grid grid-cols-3 gap-2">
+   <ul class="grid grid-cols-2 gap-2">
       <?php 
-         while(have_posts()){
-            the_post();
-            get_template_part("templates/cards/blog-card");
-      
+         $homepagePosts = new WP_Query(array(
+            "category__in" => array(get_cat_ID("projects"))
+         ));
+         if(have_posts()){
+            while($homepagePosts->have_posts()){
+               $homepagePosts->the_post();
+               
+               $index = $homepagePosts->current_post;
+               get_template_part("templates/cards/blog-card");
+            }
+            wp_reset_postdata();
          }
       ?>
    </ul>
