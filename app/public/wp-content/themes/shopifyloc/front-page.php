@@ -31,13 +31,11 @@
    <h2 class="text-3xl ml-2">Recent Blogs</h2>
    <div class="h-0.5 w-24 mt-2 bg-emerald-500 ml-2"></div>
    <ul class="mt-6 grid grid-cols-3 gap-2">
-      <?php 
-         $args = array(
-            "category__not_in" => array( get_cat_ID("projects")),
+      <?php
+         $custom_query = new WP_Query(array(
+            "category__not_in" => array(get_cat_ID("projects")),
             "posts_per_page" => 6
-         );
-         
-         $custom_query = new WP_Query($args);
+         ));
          
          if ( $custom_query->have_posts() ) {
             while ( $custom_query->have_posts() ) {
