@@ -6,7 +6,7 @@
    <?php wp_head() ?>
 </head>
 <body class="bg-slate-50 min-h-screen flex flex-col" <?php body_class() ?>>
-   <header class="w-full flex h-14 bg-white border-b border-black">
+   <header class="w-full hidden sm:flex h-14 bg-white border-b border-black">
       <h1 class="px-4 flex text-slate-800 text-lg items-center">
          <?php 
             $custom_class = "w-5 h-5 text-emerald-500 mr-1";
