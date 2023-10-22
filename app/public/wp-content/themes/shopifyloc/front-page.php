@@ -57,6 +57,7 @@
    <ul class="mt-6 grid grid-cols-2 gap-2">
       <?php 
          $homepagePosts = new WP_Query(array(
+            "category__in" => array(get_cat_ID("projects")),
             "posts_per_page" => 2
          ));
          if(have_posts()){
