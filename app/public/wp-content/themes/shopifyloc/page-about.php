@@ -12,8 +12,10 @@
          class="object-cover"
          alt="profile photo"
       >
-      <div class="w-20 h-20 absolute bottom-0 left-0 bg-white rounded-full transform -translate-x-1/2 translate-y-1/2">
+      <div class="w-24 h-24 absolute bottom-0 left-0 bg-slate-50 rounded-full transform -translate-x-1/3 translate-y-1/3 flex items-center justify-center">
+         <div class="w-20 h-20 bg-emerald-500 rounded-full">
 
+         </div>
       </div>
    </div>
 </div>
