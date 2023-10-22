@@ -67,6 +67,7 @@
                $index = $homepagePosts->current_post;
                get_template_part("templates/cards/blog-card");
             }
+            wp_reset_postdata();
          }
       ?>
    </ul>
