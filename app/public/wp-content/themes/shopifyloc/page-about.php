@@ -13,8 +13,13 @@
          alt="profile photo"
       >
       <div class="w-24 h-24 absolute bottom-0 left-0 bg-slate-50 rounded-full transform -translate-x-1/3 translate-y-1/3 flex items-center justify-center">
-         <div class="w-20 h-20 bg-emerald-500 rounded-full">
-
+         <div class="w-20 h-20 bg-emerald-500 rounded-full flex items-center justify-center">
+            <?php 
+               $custom_class = "w-5 h-5 text-white";
+               get_template_part("templates/icons/certified" , null, array(
+                  "custom_class" => $custom_class
+               ))
+            ?>
          </div>
       </div>
    </div>
