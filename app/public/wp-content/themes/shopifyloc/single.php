@@ -1,7 +1,7 @@
 <?php 
    get_header()
 ?>
-<div class="mt-10 mx-auto flex flex-col w-full items-center">
+<div class="mt-10 mb-16 mx-auto flex flex-col w-full items-center">
    <div class="mx-auto text-center flex flex-col items-center">
       <div class="flex flex-col max-w-3xl">
          <span class="mb-2 font-semibold text-slate-400"><?php echo get_the_date() ?></span>
