@@ -7,7 +7,7 @@
       <p class="text-slate-500 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
    </div>
 </div>
-<div class="mx-auto mt-10 flex flex-col w-full max-w-5xl">
+<div class="mx-auto my-10 flex flex-col w-full max-w-5xl">
    <ul class="grid grid-cols-3 gap-2">
       <?php 
          while(have_posts()){
