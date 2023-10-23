@@ -43,7 +43,7 @@
    </div>
 </div>
 
-<div class="mt-16 mx-auto flex flex-col w-full max-w-5xl">
+<div class="mt-16 px-2 sm:px-0 mx-auto flex flex-col w-full max-w-5xl">
    <h2 class="text-3xl ml-2">Recent Blogs</h2>
    <div class="h-0.5 w-24 mt-2 bg-emerald-500 ml-2"></div>
    <ul class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-2">
@@ -67,7 +67,7 @@
    </button>
 </div>
 
-<div class="my-16 mx-auto flex flex-col w-full max-w-5xl">
+<div class="my-16 px-2 sm:px-0 mx-auto flex flex-col w-full max-w-5xl">
    <h2 class="text-3xl ml-2">Recent Projects</h2>
    <div class="h-0.5 w-24 mt-2 bg-emerald-500 ml-2"></div>
    <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2">
