@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <?php wp_head() ?>
 </head>
-<body class="bg-slate-50 min-h-screen w-screen flex flex-col" <?php body_class() ?>>
+<body class="bg-slate-50 min-h-screen flex flex-col" <?php body_class() ?>>
    <header class="w-full hidden sm:flex h-14 bg-white border-b border-black">
       <h1 class="px-4 flex text-slate-800 text-lg items-center">
          <?php 

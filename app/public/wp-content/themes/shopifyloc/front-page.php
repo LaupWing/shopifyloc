@@ -25,7 +25,7 @@
          </div>
       </div>
    </div>
-   <div class="w-[80%] shadow right-4 bottom-10 bg-white absolute flex-shrink-0 border border-black flex p-10">
+   <div class="w-[80%] sm:hidden shadow right-4 bottom-10 bg-white absolute flex-shrink-0 border border-black flex p-10">
       <div class="max-w-sm w-full flex flex-col">
          <h2 class="italic text-xl font-semibold text-slate-900">Lorem ipsum dolor</h2>
          <div class="h-0.5 w-1/2 mt-2 mb-4 bg-emerald-500">
