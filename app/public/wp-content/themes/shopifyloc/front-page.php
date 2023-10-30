@@ -72,15 +72,20 @@
    <div class="h-0.5 w-24 mt-2 bg-emerald-500 ml-2"></div>
    <ul class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2">
       <?php 
-         $homepagePosts = new WP_Query(array(
-            "category__in" => array(get_cat_ID("projects")),
-            "posts_per_page" => 2
+
+         $parent_page = get_page_by_path("projects");
+         $query = new WP_Query(array(
+            "post_type" => "page",
+            "post_status" => "publish",
+            "posts_per_page" => -1,
+            "post_parent" => $parent_page->ID
          ));
-         if(have_posts()){
-            while($homepagePosts->have_posts()){
-               $homepagePosts->the_post();
+         
+         if($query->have_posts()){
+            while($query->have_posts()){
+               $query->the_post();
                
-               $index = $homepagePosts->current_post;
+               $index = $query->current_post;
                get_template_part("templates/cards/blog-card");
             }
             wp_reset_postdata();
