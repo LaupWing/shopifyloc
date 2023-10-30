@@ -2,13 +2,13 @@
    get_header()
 ?>
 <div class="py-6 -mt-1 bg-slate-900 z-50">
-   <div class="mx-auto px-2 flex flex-col w-full max-w-5xl">
+   <div class="mx-auto sm:px-2 px-4 flex flex-col w-full max-w-5xl">
       <h2 class="text-slate-100 text-4xl">Projects</h2>
       <p class="text-slate-500 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
    </div>
 </div>
-<div class="mx-auto my-16 flex flex-col w-full max-w-5xl">
-   <ul class="grid grid-cols-2 gap-2">
+<div class="mx-auto px-2 sm:px-0 my-16 flex flex-col w-full max-w-5xl">
+   <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2">
       <?php 
          $current_page = get_post();
          $parent_page_slug = $current_page->post_name;

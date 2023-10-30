@@ -35,6 +35,9 @@ nav#mobile .menu {
 nav#mobile .menu li.menu-item {
    @apply font-semibold tracking-wider pl-2 py-1 w-44 text-xs uppercase text-center flex rounded;
 }
+nav#mobile .menu li.menu-item a{
+   @apply flex-1 flex items-start;
+}
 
 /* nav#mobile .menu li.menu-item a{
    @apply flex-1 flex items-center justify-center;

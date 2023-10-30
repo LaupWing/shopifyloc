@@ -1,7 +1,7 @@
 <?php 
    get_header()
 ?>
-<div class="mx-auto mt-10 flex w-full max-w-5xl gap-10">
+<div class="mx-auto my-16 flex w-full max-w-5xl gap-10">
    <div class="flex-1">
       <h2 class="uppercase text-2xl font-semibold tracking-wider">About <span class="text-emerald-500">me</span></h2>
       <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea mollitia totam sunt, numquam molestiae aliquam amet quos expedita ullam autem nihil error, sint eveniet suscipit natus, debitis labore omnis excepturi.</p>
