@@ -35,14 +35,17 @@
       </div>
    </header>
    <header class="w-full sm:hidden flex h-14 bg-white border-b border-black">
-      <div class="mr-auto flex items-center border-r border-black px-6">
+      <button 
+         class="mr-auto flex items-center border-r border-black px-6"
+         id="menu"
+      >
          <?php 
             $custom_class = "w-5 h-5 text-slate-800";
             get_template_part("templates/icons/menu" , null, array(
                "custom_class" => $custom_class
             ))
          ?>
-      </div>
+      </button>
       <h1 class="px-4 flex text-slate-800 text-lg items-center">
          <?php 
             $custom_class = "w-5 h-5 text-emerald-500 mr-1";
@@ -64,9 +67,16 @@
       </div>
    </header>
 
-   <div class="fixed inset-0 bg-white z-[100] border-r-2 border-black">
+   <div 
+      class="fixed inset-0 bg-white z-[100] border-r-2 border-black"
+      data-open="false"
+      style="transform: translateX(-100%);"
+   >
       <div class="flex flex-col px-6 pt-16 pb-10">
-         <button class="ml-auto">
+         <button 
+            class="ml-auto"
+            id="close"
+         >
             <?php get_template_part(
                "templates/icons/close",
                null,
