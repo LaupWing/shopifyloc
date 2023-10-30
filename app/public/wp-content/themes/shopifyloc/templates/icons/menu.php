@@ -2,7 +2,7 @@
    $custom_menu_class = isset($args["custom_class"]) ? $args["custom_class"] : "w-6 h-6";
 ?>
 <svg 
-   class="flex-shrink-0 fill-current <?php echo $custom_logo_class ?>"
+   class="flex-shrink-0 fill-current <?php echo $custom_menu_class ?>"
    xmlns="http://www.w3.org/2000/svg" 
    height="1em" 
    viewBox="0 0 448 512"
