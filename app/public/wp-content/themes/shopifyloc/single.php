@@ -3,7 +3,7 @@
 ?>
 <div class="mt-10 mb-16 mx-auto flex flex-col w-full items-center">
    <div class="mx-auto text-center flex flex-col items-center">
-      <div class="flex flex-col max-w-3xl">
+      <div class="flex flex-col max-w-3xl sm:px-0 px-4">
          <span class="mb-2 font-semibold text-slate-400"><?php echo get_the_date() ?></span>
          <h2 class="font-bold text-3xl"><?php the_title() ?></h2>
          <p class="my-6"><?php echo get_the_excerpt() ?></p>
@@ -30,7 +30,10 @@
          >
       </div>
    </div>
-   <main id="content" class="flex flex-col max-w-3xl mt-10">
+   <main 
+      id="content" 
+      class="flex flex-col w-full max-w-3xl mt-10 px-2 sm:px-0"
+   >
       <?php the_content() ?>
    </main>
 </div>

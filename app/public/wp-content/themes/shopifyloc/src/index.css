@@ -66,10 +66,10 @@ nav#mobile .menu li.menu-item.current_page_parent {
 }
 
 #content ul {
-   @apply my-4 max-w-full;
+   @apply my-4;
 }
 #content ul li {
-   @apply list-disc list-inside flex flex-wrap;
+   @apply list-disc list-inside;
 }
 
 #content a {
