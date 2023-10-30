@@ -47,3 +47,7 @@
 #content ul li {
    @apply list-disc list-inside;
 }
+
+#content a {
+   @apply underline text-blue-500;
+}
