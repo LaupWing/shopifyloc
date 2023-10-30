@@ -3,24 +3,24 @@
 @tailwind utilities;
 
 
-.menu-main-header-menu-container {
+nav#desktop .menu-main-header-menu-container {
    @apply flex;
 }
 
-.menu {
+nav#desktop .menu {
    @apply flex;
 }
 
-.menu li.menu-item {
+nav#desktop .menu li.menu-item {
    @apply font-semibold tracking-wider w-24 text-xs uppercase text-center flex border-black border-r;
 }
 
-.menu li.menu-item a{
+nav#desktop .menu li.menu-item a{
    @apply flex-1 flex items-center justify-center;
 }
 
-.menu li.menu-item.current-menu-item, 
-.menu li.menu-item.current_page_parent {
+nav#desktop .menu li.menu-item.current-menu-item, 
+nav#desktop .menu li.menu-item.current_page_parent {
    @apply font-semibold bg-slate-900 text-slate-50 tracking-wider w-24 text-xs uppercase text-center flex border-black border-r;
 }
 

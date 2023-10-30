@@ -64,10 +64,10 @@
       </div>
    </header>
 
-   <!-- <div class="fixed inset-0 bg-white z-50 border-r-2 border-black">
-      <ul class="flex flex-col px-6 pt-16 pb-10">
-         <li>
-            <h1 class="px-4 flex text-slate-800 text-lg items-center">
+   <div class="fixed inset-0 bg-white z-[100] border-r-2 border-black">
+      <div class="flex flex-col px-6 pt-16 pb-10">
+         <div>
+            <h1 class="flex text-slate-800 text-lg items-center">
                <?php 
                   $custom_class = "w-5 h-5 text-emerald-500 mr-1";
                   get_template_part("templates/icons/logo" , null, array(
@@ -78,8 +78,8 @@
                   <strong>Shopify</strong>Loc
                </i>
             </h1>
-         </li>
-         <li>
+         </div>
+         <div>
             <nav>
                <?php
                   wp_nav_menu([
@@ -87,6 +87,6 @@
                   ]);
                ?>
             </nav>
-         </li>
-      </ul>
-   </div> -->
+         </div>
+      </div>
+   </div>
