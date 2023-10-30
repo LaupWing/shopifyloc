@@ -80,7 +80,7 @@
             </h1>
          </div>
          <div>
-            <nav>
+            <nav id="mobile">
                <?php
                   wp_nav_menu([
                      "theme_location" => "headerMenuLocation"

@@ -24,6 +24,27 @@ nav#desktop .menu li.menu-item.current_page_parent {
    @apply font-semibold bg-slate-900 text-slate-50 tracking-wider w-24 text-xs uppercase text-center flex border-black border-r;
 }
 
+nav#mobile .menu-main-header-menu-container {
+   @apply flex flex-col my-6;
+}
+
+nav#mobile .menu {
+   @apply flex flex-col gap-4;
+}
+
+nav#mobile .menu li.menu-item {
+   @apply font-semibold tracking-wider pl-2 py-1 w-44 text-xs uppercase text-center flex rounded;
+}
+
+/* nav#mobile .menu li.menu-item a{
+   @apply flex-1 flex items-center justify-center;
+} */
+
+nav#mobile .menu li.menu-item.current-menu-item, 
+nav#mobile .menu li.menu-item.current_page_parent {
+   @apply font-semibold bg-slate-900 text-slate-50 tracking-wider w-44 text-xs uppercase text-center flex ;
+}
+
 
 #content p {
    @apply my-4 leading-6;
