@@ -30,7 +30,7 @@
          >
       </div>
    </div>
-   <main class="flex flex-col max-w-3xl mt-10">
+   <main id="content" class="flex flex-col max-w-3xl mt-10">
       <?php the_content() ?>
    </main>
 </div>
