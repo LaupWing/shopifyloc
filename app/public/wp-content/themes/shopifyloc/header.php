@@ -66,6 +66,15 @@
 
    <div class="fixed inset-0 bg-white z-[100] border-r-2 border-black">
       <div class="flex flex-col px-6 pt-16 pb-10">
+         <button class="ml-auto">
+            <?php get_template_part(
+               "templates/icons/close",
+               null,
+               array(
+                  "custom_class" => "mr-4 w-6 h-6"
+               )
+            ) ?>
+         </button>
          <div>
             <h1 class="flex text-slate-800 text-lg items-center">
                <?php 
