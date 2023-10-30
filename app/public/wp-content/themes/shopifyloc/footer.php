@@ -17,10 +17,10 @@
          <div class="flex flex-col gap-4 my-10 text-emerald-400">
             <h3 class="uppercase font-bold text-sm">Subscribe</h3>
             <p>Subscribe to my newsletter to get regular content not published on my site.</p>
-            <div class="flex gap-2">
+            <div class="flex gap-2 sm:flex-row flex-col">
                <input 
                   type="text" 
-                  class="bg-emerald-100 px-3 w-60 font-semibold rounded-[2px] py-1.5 border-none"
+                  class="bg-emerald-100 px-3 sm:w-60 w-full font-semibold rounded-[2px] py-1.5 border-none"
                   placeholder="Enter your email address"
                >
                <button class="px-4 py-1.5 shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold">
