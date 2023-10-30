@@ -35,6 +35,14 @@
       </div>
    </header>
    <header class="w-full sm:hidden flex h-14 bg-white border-b border-black">
+      <div class="mr-auto flex items-center border-r border-black px-6">
+         <?php 
+            $custom_class = "w-5 h-5 text-slate-800";
+            get_template_part("templates/icons/menu" , null, array(
+               "custom_class" => $custom_class
+            ))
+         ?>
+      </div>
       <h1 class="px-4 flex text-slate-800 text-lg items-center">
          <?php 
             $custom_class = "w-5 h-5 text-emerald-500 mr-1";
