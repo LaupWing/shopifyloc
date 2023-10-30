@@ -67,8 +67,9 @@
       </div>
    </header>
 
-   <div 
-      class="fixed inset-0 bg-white z-[100] border-r-2 border-black"
+   <nav
+      id="mobile"
+      class="fixed duration-300 inset-0 bg-white z-[100] border-r-2 border-black"
       data-open="false"
       style="transform: translateX(-100%);"
    >
@@ -99,13 +100,11 @@
             </h1>
          </div>
          <div>
-            <nav id="mobile">
-               <?php
-                  wp_nav_menu([
-                     "theme_location" => "headerMenuLocation"
-                  ]);
-               ?>
-            </nav>
+            <?php
+               wp_nav_menu([
+                  "theme_location" => "headerMenuLocation"
+               ]);
+            ?>
          </div>
       </div>
-   </div>
+   </nav>
