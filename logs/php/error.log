@@ -202,3 +202,6 @@ Stack trace:
 [30-Oct-2023 09:50:10 UTC] PHP Warning:  Undefined variable $custom_logo_class in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\templates\icons\menu.php on line 5
 [30-Oct-2023 09:51:35 UTC] PHP Warning:  Undefined variable $custom_logo_class in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\templates\icons\menu.php on line 5
 [30-Oct-2023 09:53:14 UTC] PHP Warning:  Undefined variable $custom_logo_class in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\templates\icons\menu.php on line 5
+[30-Oct-2023 09:53:39 UTC] PHP Warning:  Undefined variable $custom_logo_class in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\templates\icons\menu.php on line 5
+[30-Oct-2023 09:53:40 UTC] PHP Warning:  Undefined variable $custom_logo_class in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\templates\icons\menu.php on line 5
+[30-Oct-2023 09:54:06 UTC] PHP Warning:  Undefined variable $custom_logo_class in C:\Users\pin-d\Local Sites\shopifyloc\app\public\wp-content\themes\shopifyloc\templates\icons\menu.php on line 5
