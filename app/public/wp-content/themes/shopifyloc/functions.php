@@ -22,3 +22,9 @@ function addSupport(){
 }
 
 add_action("after_setup_theme", "addSupport");
+
+function custom_excerpt_length() {
+   return 40;
+}
+
+add_filter("excerpt_length", "custom_excerpt_length");
