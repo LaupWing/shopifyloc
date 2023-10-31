@@ -18,7 +18,7 @@
             <strong>Shopify</strong>Loc
          </i>
       </h1>
-      <nav id="desktop" class="border-l border-black flex">
+      <nav id="desktop" class="border-l border-sky-200 flex text-sky-900">
          <?php
             wp_nav_menu([
                "theme_location" => "headerMenuLocation"

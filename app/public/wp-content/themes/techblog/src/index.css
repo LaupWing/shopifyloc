@@ -12,7 +12,7 @@ nav#desktop .menu {
 }
 
 nav#desktop .menu li.menu-item {
-   @apply font-semibold tracking-wider w-24 text-xs uppercase text-center flex border-black border-r;
+   @apply font-semibold tracking-wider w-24 text-xs uppercase text-center flex border-sky-200 border-r;
 }
 
 nav#desktop .menu li.menu-item a{
@@ -22,7 +22,7 @@ nav#desktop .menu li.menu-item a{
 nav#desktop .menu li.menu-item.current-menu-item, 
 nav#desktop .menu li.menu-item.current-page-ancestor , 
 nav#desktop .menu li.menu-item.current_page_parent {
-   @apply font-semibold bg-slate-900 text-slate-50 tracking-wider w-24 text-xs uppercase text-center flex border-black border-r;
+   @apply font-semibold bg-slate-900 text-sky-100 tracking-wider w-24 text-xs uppercase text-center flex border-sky-200 border-r;
 }
 
 nav#mobile .menu-main-header-menu-container {
@@ -47,7 +47,7 @@ nav#mobile .menu li.menu-item a{
 nav#mobile .menu li.menu-item.current-menu-item, 
 nav#mobile .menu li.menu-item.current-page-ancestor , 
 nav#mobile .menu li.menu-item.current_page_parent {
-   @apply font-semibold bg-slate-900 text-slate-50 tracking-wider w-44 text-xs uppercase text-center flex ;
+   @apply font-semibold bg-slate-900 text-sky-100 tracking-wider w-44 text-xs uppercase text-center flex ;
 }
 
 
