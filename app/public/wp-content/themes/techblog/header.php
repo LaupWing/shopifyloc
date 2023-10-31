@@ -7,7 +7,7 @@
 </head>
 <body class="bg-slate-950 min-h-screen flex flex-col" <?php body_class() ?>>
    <header class="w-full hidden sm:flex h-14 bg-slate-950 border-b border-sky-200">
-      <h1 class="px-4 flex text-slate-900 text-lg items-center">
+      <h1 class="px-4 flex text-purple-500 text-lg items-center">
          <?php 
             $custom_class = "w-5 h-5 text-emerald-500 mr-1";
             get_template_part("templates/icons/logo" , null, array(
