@@ -1,4 +1,4 @@
-<li class="flex flex-col p-2 hover:border-black border border-transparent">
+<li class="flex flex-col p-2 hover:border-slate-800 border border-transparent">
    <a 
       href="<?php the_permalink() ?>" 
       class="flex flex-col flex-1"
