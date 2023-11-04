@@ -10,7 +10,7 @@
                if ($posttags) {
                   foreach($posttags as $tag) {
             ?>
-               <div class="px-2 py-0.5 bg-white/20 backdrop-blur rounded text-emerald-500 text-xs uppercase font-bold">
+               <div class="px-2 py-0.5 bg-white/20 backdrop-blur rounded text-purple-500 text-xs uppercase font-bold">
                   <?php echo $tag->name ?>
                </div>
             <?php 
@@ -24,8 +24,8 @@
             alt="Post"
          >
       </div>
-      <h2 class="font-bold text-emerald-500 my-2"><?php the_title() ?></h2>
-      <p class="text-sm mb-2"><?php echo get_the_excerpt() ?></p>
+      <h2 class="font-bold text-purple-500 my-2"><?php the_title() ?></h2>
+      <p class="text-sm mb-2 text-slate-600"><?php echo get_the_excerpt() ?></p>
       <p class="mt-auto font-bold text-slate-400 text-xs uppercase"><?php echo get_the_date() ?></p>
    </a>
 </li>
