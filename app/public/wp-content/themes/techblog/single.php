@@ -32,7 +32,7 @@
    </div>
    <main 
       id="content" 
-      class="flex flex-col w-full max-w-3xl mt-10 px-2 sm:px-0"
+      class="flex text-slate-50 flex-col w-full max-w-3xl mt-10 px-2 sm:px-0"
    >
       <?php the_content() ?>
    </main>
