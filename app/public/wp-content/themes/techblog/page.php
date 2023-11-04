@@ -5,8 +5,8 @@
    <div class="mx-auto text-center flex flex-col items-center">
       <div class="flex flex-col max-w-3xl sm:px-0 px-4">
          <span class="mb-2 font-semibold text-slate-400"><?php echo get_the_date() ?></span>
-         <h2 class="font-bold text-3xl"><?php the_title() ?></h2>
-         <p class="my-6"><?php echo get_the_excerpt() ?></p>
+         <h2 class="font-bold text-3xl text-purple-400"><?php the_title() ?></h2>
+         <p class="my-6 text-purple-600"><?php echo get_the_excerpt() ?></p>
       </div>
       <div class="relative flex max-w-4xl">
          <div class="flex w-full mx-auto absolute gap-4 top-0 p-4 flex-1 justify-center items-center">
@@ -15,7 +15,7 @@
                if ($posttags) {
                   foreach($posttags as $tag) {
             ?>
-               <div class="px-2 py-0.5 bg-white/40 backdrop-blur rounded text-emerald-800 text-xs uppercase font-bold">
+               <div class="px-2 py-0.5 bg-white/40 backdrop-blur rounded text-purple-800 text-xs uppercase font-bold">
                   <?php echo $tag->name ?>
                </div>
             <?php 
@@ -32,7 +32,7 @@
    </div>
    <main 
       id="content" 
-      class="flex flex-col w-full max-w-3xl mt-10 px-2 sm:px-0"
+      class="flex text-slate-50 flex-col w-full max-w-3xl mt-10 px-2 sm:px-0"
    >
       <?php the_content() ?>
    </main>
