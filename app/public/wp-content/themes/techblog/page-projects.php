@@ -1,7 +1,7 @@
 <?php 
    get_header()
 ?>
-<div class="py-6 -mt-1 bg-slate-900 z-50">
+<div class="py-6 bg-slate-900 z-50">
    <div class="mx-auto sm:px-2 px-4 flex flex-col w-full max-w-5xl">
       <h2 class="text-slate-100 text-4xl">Projects</h2>
       <p class="text-slate-500 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
