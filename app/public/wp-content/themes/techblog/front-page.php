@@ -11,15 +11,15 @@
    </div>
    <div class="hidden sm:flex w-[40%] flex-shrink-0 border-l border-black p-10">
       <div class="max-w-sm w-full flex flex-col">
-         <h2 class="italic text-3xl font-semibold text-slate-900">Lorem ipsum dolor</h2>
-         <div class="h-0.5 w-1/2 mt-2 mb-10 bg-emerald-500">
+         <h2 class="italic text-3xl font-semibold text-slate-400">Lorem ipsum dolor</h2>
+         <div class="h-0.5 w-1/2 mt-2 mb-10 bg-purple-500">
          </div>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id in cupiditate porro velit ullam nisi ipsum aliquid autem omnis officiis ipsa ducimus odit numquam accusamus corporis, veniam sed magni. Explicabo.</p>
+         <p class="text-slate-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id in cupiditate porro velit ullam nisi ipsum aliquid autem omnis officiis ipsa ducimus odit numquam accusamus corporis, veniam sed magni. Explicabo.</p>
          <div class="flex mt-4 gap-2">
-            <button class="px-4 py-1.5 shadow bg-emerald-600 rounded uppercase text-slate-50 text-sm font-bold">
+            <button class="px-4 py-1.5 shadow bg-purple-600 rounded uppercase text-slate-50 text-sm font-bold">
                Contact me
             </button>
-            <button class="px-4 py-1.5 bg-slate-50 border-2 border-emerald-600 rounded uppercase text-emerald-600 text-sm font-bold">
+            <button class="px-4 py-1.5  border-2 border-purple-600 rounded uppercase text-purple-600 text-sm font-bold">
                About
             </button>
          </div>
